@@ -1,0 +1,72 @@
+/* variabile */
+:root {
+    --text-primary: #101d42;
+    --text-secondary: #fbb44c;
+    --text-dark: #2b2922;
+    --text-light: #eaeaea;
+    --text-white: #ffffff;
+
+    --bg-primary: #141e4c;
+    --bg-secondary: #dfedf5;
+    --bg-dark: #101d42;
+    --bg-light: #ffffff;
+
+    --button-color: #2bb686;
+}
+
+h2 {
+    font-weight: bold !important
+}
+
+h4 {
+    font-weight: bold !important
+}
+
+h1 {
+    font-weight: bold !important
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+h3 {
+    font-size: large !important;
+    font-weight: bold;
+}
+
+
+
+/*navbar*/
+nav {
+    background-color: var(--bg-primary);
+    width: 100%;
+}
+
+nav :hover {
+    color: #fbb44c !important
+}
+
+.dropdown-items-background {
+    background-color: var(--bg-dark) !important;
+    background-color: 100%;
+}
+
+.noi:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+/*footer*/
+
+.footer {
+    display: block;
+    background-color: var(--bg-primary);
+    color: var(--text-light);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: smaller;
+    margin: 0px;
+}

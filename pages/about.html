@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+
+  <!--link css-->
+  <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <!--poppins font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+  <!-- header-->
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand col d-flex justify-content-between" href="../index.html"> <img src="../img/logo-white.png"
+          alt="logo IT School" width="150" class="d-inline-block align-text-center"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link active" href="../pages/courses.html">Cursuri Online</a>
+          </li>
+          <li class="nav-item dropdown noi">
+            <a class="nav-link dropdown-toggle active " href="../pages/about.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false"> Despre noi
+            </a>
+            <ul class="dropdown-menu dropdown-items-background">
+              <li><a class="dropdown-item text-light dropdown-items-background" href="../index.html">IT School</a></li>
+              <li><a class="dropdown-item text-light dropdown-items-background" href="../pages/about.html">Despre
+                  noi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../pages/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Welcome-->
+
+  <section class="welcome">
+    <div class="container">
+      <h1>Trainerii IT School</h1>
+    </div>
+  </section>
+
+
+  <!--cards-->
+  <section class="cards">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 g-3">
+        <div class="col">
+          <div class="card h-100">
+            <img class="rounded-circle imagine" src="../img/razvan.jpeg" class="card-img-top" alt="razvan">
+            <div class="card-body">
+              <h5 class=" rounded card-title">Răzvan Cîrlugea</h5>
+              <p class="card-text">Specialitatea mea este Front-End Development-ul, așadar limbajul meu de programare de
+                suflet este
+                JavaScript. Bineînțeles, dacă vorbim de Front-End, alți camarazi buni de-ai mei sunt HTML și CSS (chit
+                că nu sunt
+                limbaje de programare)." Răzvan a devenit trainer înainte de a lucra full-time ca și programator 😀.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class="rounded-circle imagine marius" src="../img/marius.png" class="card-img-top" alt="marius">
+            <div class="card-body">
+              <h5 class="rounded card-title">Marius Furcic</h5>
+              <p class="card-text">Marius este Front-end Web Developer și lucrează în domeniu de mai bine de 6 ani. Este
+                mereu în
+                căutare de noi provocări și nu se abate din calea lor până nu găsește soluția. Motto-ul său este
+                “Calculatorul nu
+                greșește niciodată.”</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class="rounded-circle imagine" src="../img/alex.jpeg" class="card-img-top" alt="alex">
+            <div class="card-body">
+              <h5 class="rounded card-title">Alex Zmed</h5>
+              <p class="card-text">Alex lucrează în domeniu de peste 6 ani. Fiind pasionat de tot ceea ce ține de web,
+                Alex este
+                Front-end Developer în timpul zilei, mentor IT School după lucru și iubitor de somn pe timpul nopții.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class="rounded-circle imagine" src="../img/ema.jpeg" class="card-img-top" alt="ema">
+            <div class="card-body">
+              <h5 class="rounded card-title">Ema Enescu</h5>
+              <p class="card-text">Ema este Front-end Web Developer și activează în domeniul IT de mai bine de 6 ani.
+                Iubește
+                la fel de mult codul curat cât și o carte bună sau o călătorie la mare depărtare de casă.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container-flex">
+      <div class="footer">
+        <p>IT School România © 2021. Toate drepturile rezervate.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+/*welcome*/
+
+h1 {
+    font-size: 60px !important;
+    font-weight: bold !important
+}
+
+.welcome {
+    height: 350px;
+    width: 100%;
+    background-color: var(--bg-primary) !important
+}
+
+.welcome {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.welcome h1 {
+    color: var(--text-white) !important
+}
+
+.welcome p span {
+    color: var(--text-secondary) !important
+}
+
+.welcome {
+    padding-bottom: 30px !important;
+}
+
+/*carduri*/
+
+.cards {
+    padding-top: 100px;
+}
+
+.imagine {
+    width: 150px;
+    height: 137px;
+    align-self: center;
+    margin-top: -50px;
+    filter: grayscale(100%);
+}
+
+
+
+.card-title {
+    font-weight: bold;
+    color: var(--text-secondary) !important;
+    text-align: center;
+    background-color: var(--bg-primary) !important;
+    margin-top: -30px;
+    opacity: 90%;
+}
+
+.card-text {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.col {
+    padding-top: 90px;
+    padding-bottom: 315px;
+
+}

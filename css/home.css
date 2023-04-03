@@ -1,0 +1,113 @@
+
+
+
+  
+
+/*welcme*/
+.welcome {
+    height: 757px;
+    width: 100%;
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;}
+
+.welcome h1, .welcome p {
+color: var(--text-white)!important
+}
+
+.welcome p span {
+    color: var(--text-secondary)!important
+}
+
+.welcome img {
+    height: 24px;
+    width: auto;
+}
+
+/*buton*/
+
+
+.btn {background-color: var(--button-color)!important
+}
+
+.btn:hover{ background-color: var(--bg-primary)!important
+
+}
+
+.btn {color: var( --text-light) !important
+
+}
+
+.btn {border-color: var(--button-color) !important
+}
+
+.afla {max-width: 100%!important}
+
+
+/*calendar*/
+
+.calendar1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.calendar {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.icons {
+    width: auto;
+    height: 23px;
+    vertical-align: -25%;
+}
+
+.online{
+    background-color: var(--text-secondary);
+}
+
+.bar {
+    height: 4px;
+    background-color:  var(--button-color);
+    border-radius: 10px;
+    vertical-align:text-bottom;
+    margin-top:50px;
+    margin-bottom: -20px;
+
+}
+
+.card-body {
+    padding: 30px !important 
+}
+
+/*who-we-are*/
+
+.who-we-are {
+    background-color: var(--bg-secondary)!important
+}
+
+.who-we-are {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+/*parteneri*/
+
+.parteneri {
+    width: 100px;
+    height: auto;
+    filter: grayscale(100%);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.button:hover{filter: none;
+}
+
+
